@@ -11,6 +11,6 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(name){
-  array.pop(2)
+  array.pop(3)
   return array
 }
