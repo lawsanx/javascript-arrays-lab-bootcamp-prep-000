@@ -5,7 +5,7 @@ function destructivelyAppendKitten(name) {
  return kittens
 }
 
-function destructivelyPrependKitten(name){
+function destructivelyPrependKitten(name, element){
   kittens.upshift(name)
-  //return kittens
+  return kittens
 }
